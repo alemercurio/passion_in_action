@@ -3,7 +3,7 @@
 ##
 MAKEFILE_VERSION := 1.07
 ## Path to kernel directory (edited by init_project_out_of_git_repo.pl)
-KPATH := miosix
+KPATH := ../../miosix
 ## Path to config directory (edited by init_project_out_of_git_repo.pl)
 CONFPATH := $(KPATH)
 include $(CONFPATH)/config/Makefile.inc
