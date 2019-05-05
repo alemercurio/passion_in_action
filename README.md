@@ -33,7 +33,7 @@ This is how this repo is organized:
 
 * Linux
 
-* Windows
+* [Windows](install/Windows/README.md)
 
 * Mac: just get a virtual machine
 
