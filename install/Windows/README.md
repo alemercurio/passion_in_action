@@ -11,7 +11,7 @@ https://git-scm.com/downloads
 During the installation process, keep the suggested settings, but do change the default text editor to one of your choice.
 
 3. ST-Link Drivers  
-ST-Link drivers can be downloaded from the [ST Website](https://www.st.com/en/development-tools/stsw-link004.html#), previous registration.   
+ST-Link drivers can be downloaded from the [ST Website](https://www.st.com/en/development-tools/stsw-link004.html#), but you are required to sign-up on the website.
 If you want to avoid the registration process, the same installer is provided in the `install/Windows/drivers` folder in this repo.
 
 ### Toolchain
