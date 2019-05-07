@@ -37,7 +37,9 @@ uint16_t convertChannel(uint8_t channel)
     // We wait until the adc sets the EOC (End Of Conversion) bit to 1 in the 
     // status register (SR)
     while ((ADC1->SR & ADC_SR_EOC) == 0)
-        ;
+    {
+
+    }
 
     // When it's done, clear the status register setting every bit to 0
     ADC1->SR = 0;
