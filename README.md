@@ -15,25 +15,24 @@ In this repo you will find some tutorials and code examples. All the software he
 This what you will find in this repo:
 
 ```
- _ docs/ 					datasheets and tutorials
+ _ docs/ 					    datasheets and tutorials
 |_ miosix-kernel/ 				the kernel of the OS
-|   |_ arch/.../.../stage_1_boot.cpp 		all possible interrupts
+|   |_ arch/cortexM4_stm32f4/stm32f407vg_stm32f4discovery  bsp&stage1boot
 |_ src/						
 |    |_ shared/ 				i2c driver, spi driver..
-|    |_ examples/                		all the examples
-|         |_ < in each example >
-|        	|_ main.cpp     		MAIN of the example
-|        	|_ Makefile     		builds the binary
-|        	|_ bin/         		contains a binary that can be flashed on the board
-|        	|_ build/
-|        	|_ obj/
+|    |_ < in each folder >
+|         |_ main.cpp     		MAIN of the example
+|      	  |_ Makefile     		builds the binary
+|      	  |_ bin/         		contains a binary that can be flashed on the board
+|      	  |_ build/
+|         |_ obj/
 |_ install/                     		
      |_ Linux/
      |    |_ install.sh 			script to install dependencies 
      |    |_ README                             Install instructions
      |_ Windows/
           |_ drivers/				ST drivers
-	  |_ README                             Install instructions
+	      |_ README                 Install instructions
 ```
 
 ## Compiling and Flashing
