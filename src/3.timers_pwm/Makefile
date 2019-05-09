@@ -2,6 +2,10 @@
 ## Makefile for Miosix embedded OS
 ##
 MAKEFILE_VERSION := 1.07
+
+## Which board (you can find the complete list inside miosix/config/Makefile.inc)
+export OPT_BOARD := stm32f407vg_stm32f4discovery
+
 ## Path to kernel directory (edited by init_project_out_of_git_repo.pl)
 KPATH := ../../miosix
 ## Path to config directory (edited by init_project_out_of_git_repo.pl)
